@@ -28,7 +28,6 @@ namespace DelegateAndEvent
             //using example
             invokerComandRepository.SetCommand(removecomand);
             invokerComandRepository.Exute();
-
             invokerComandRepository.Undo();
 
 
